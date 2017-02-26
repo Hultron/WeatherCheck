@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value="weather_check"/>
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.hultron.weathercheck.db.Province"/>
+        <mapping class="com.hultron.weathercheck.db.City"/>
+        <mapping class="com.hultron.weathercheck.db.County"/>
+    </list>
+</litepal>
