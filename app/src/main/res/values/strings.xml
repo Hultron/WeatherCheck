@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">WeatherCheck</string>
     <string name="cnty_china">中国</string>
+    <string name="forcast">预报</string>
+    <string name="aqi">空气质量</string>
+    <string name="aqi_index">AQI指数</string>
+    <string name="pm2_5">PM2.5指数</string>
+    <string name="suggestion">生活建议</string>
 </resources>
