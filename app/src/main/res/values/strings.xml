@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherCheck</string>
+    <string name="app_name">朋友天气</string>
     <string name="cnty_china">中国</string>
     <string name="forcast">预报</string>
     <string name="aqi">空气质量</string>
