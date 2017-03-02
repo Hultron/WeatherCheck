@@ -1,5 +1,6 @@
 package com.hultron.weathercheck;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
@@ -21,6 +22,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.hultron.weathercheck.gson.Forcast;
 import com.hultron.weathercheck.gson.Weather;
+import com.hultron.weathercheck.service.AutoUpdateService;
 import com.hultron.weathercheck.util.HttpUtil;
 import com.hultron.weathercheck.util.Utility;
 
@@ -214,6 +216,8 @@ public class WeatherActivity extends AppCompatActivity {
         sportText.setText(sport);
 
         weatherLayout.setVisibility(View.VISIBLE);
+        Intent intent = new Intent(this, AutoUpdateService.class);
+        startService(intent);
     }
 
     /*
